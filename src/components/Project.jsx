@@ -130,7 +130,7 @@ function Projects() {
           logos={techLogos}
           speed={120}
           direction="left"
-          logoHeight={48}
+          logoHeight={70}
           gap={40}
           pauseOnHover
           scaleOnHover
