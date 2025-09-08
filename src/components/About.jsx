@@ -2,7 +2,7 @@ function AboutMe() {
   return (
     <section
       id="about"
-      className="max-w-6xl mx-auto px-6 py-20 flex flex-col gap-16"
+      className="max-w-6xl mx-auto px-6 py-20 flex flex-col gap-16 scroll-mt-10"
     >
       {/* Main Intro */}
       <div className="flex flex-col md:flex-row items-center gap-12">
