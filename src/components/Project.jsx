@@ -1,48 +1,6 @@
-import LogoLoop from "./LogoLoop";
-import {
-  SiReact,
-  SiNextdotjs,
-  SiTypescript,
-  SiTailwindcss,
-} from "react-icons/si";
-
-const techLogos = [
-  { node: <SiReact />, title: "React", href: "https://react.dev" },
-  { node: <SiNextdotjs />, title: "Next.js", href: "https://nextjs.org" },
-  {
-    node: <SiTypescript />,
-    title: "TypeScript",
-    href: "https://www.typescriptlang.org",
-  },
-  {
-    node: <SiTailwindcss />,
-    title: "Tailwind CSS",
-    href: "https://tailwindcss.com",
-  },
-];
-
-// Alternative with image sources
-const imageLogos = [
-  {
-    src: "/logos/company1.png",
-    alt: "Company 1",
-    href: "https://company1.com",
-  },
-  {
-    src: "/logos/company2.png",
-    alt: "Company 2",
-    href: "https://company2.com",
-  },
-  {
-    src: "/logos/company3.png",
-    alt: "Company 3",
-    href: "https://company3.com",
-  },
-];
-
 function Projects() {
   return (
-    <section id="projects" className="max-w-7xl mx-auto mt-24 px-6 h-180">
+    <section id="projects" className="max-w-7xl mx-auto mt-24 px-6 h-180 scroll-mt-40">
       <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
         Projects
         <span className="block w-20 h-1 mx-auto mt-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></span>
@@ -121,23 +79,6 @@ function Projects() {
             </a>
           </div>
         </div>
-      </div>
-      
-      <div
-        style={{ height: "200px", position: "relative", overflow: "hidden" }}
-      className="mt-20">
-        <LogoLoop
-          logos={techLogos}
-          speed={120}
-          direction="left"
-          logoHeight={70}
-          gap={40}
-          pauseOnHover
-          scaleOnHover
-          fadeOut
-          fadeOutColor="#ffffff"
-          ariaLabel="Technology partners"
-        />
       </div>
     </section>
   );

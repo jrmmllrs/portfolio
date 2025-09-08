@@ -4,7 +4,7 @@ import profilePicture from "../assets/testprofile.jpg";
 function PortfolioBody() {
   return (
 <div>
-  <section className="max-w-6xl mx-auto mt-24 px-6 flex flex-col md:flex-row items-center gap-12 h-180" id="home">
+  <section className="max-w-6xl mx-auto mt-24 px-6 flex flex-col md:flex-row items-center gap-12 h-180 scroll-mt-24" id="home">
    
     <div className="text-center md:text-left md:flex-1">
       <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">
