@@ -8,7 +8,7 @@ function PortfolioBody() {
    
     <div className="text-center md:text-left md:flex-1">
       <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">
-        Hi, I’m <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Jerome</span>
+        Hi, I’m <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Jeromeeeeeeeee</span>
       </h1>
       <p className="text-gray-700 dark:text-gray-300 text-lg max-w-lg mx-auto md:mx-0 leading-relaxed mb-8">
         A passionate <span className="font-semibold text-blue-600 dark:text-blue-400">Software Engineer</span> specializing in building (and occasionally designing) exceptional digital experiences.
